@@ -1,0 +1,246 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 2s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loginn
+{
+  background-color: blue;
+}
+
+.link-text {
+  color: white; /* Set text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.2rem; /* Set font size */
+  /* Add any additional styles you want for the text */
+}
+
+/* styles.css */
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+}
+
+.card {
+  flex: 1; /* Occupy 90% of the available space */
+  padding: 15px;
+  border-radius: 5px;
+  display: flex; /* Use flexbox for the inner container */
+  align-items: center; /* Align items horizontally */
+}
+
+.cardContent {
+  flex: 1; /* Occupy all available space */
+}
+
+.deleteButton {
+  margin-left: 10px;
+}
+
+.transaction-list {
+  margin-top: 20px;
+}
+
+.transaction-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.transaction-item:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transaction-item > * {
+  margin-bottom: 5px;
+}
+
+.modal-title {
+  margin-bottom: 20px;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-button {
+  margin-top: 20px;
+}
+
+.loans-container {
+  text-align: center;
+  height: 88vh;
+}
+
+.cardLogin {
+  display: inline-block;
+  vertical-align: middle; /* Add this line */
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.monthly-container {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+}
+
+.monthly-header {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.card-container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardMonthly {
+  width: calc(50% - 20px);
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cardMonthly p {
+  margin: 5px 0;
+}
+
+/* Add this CSS to your existing CSS file or create a new one */
+
+.cardMonthly {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cardMonthly p {
+  margin: 5px 0;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card-actions button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-actions button:hover {
+  background-color: #0056b3;
+}
+
+/* Add this CSS to your existing CSS file or create a new one */
+
+.card-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cardMonthly {
+  width: calc(33.33% - 20px); /* Adjust the width as per your preference */
+  /* Other styles remain the same */
+  /* You can also set a max-width or min-width for responsiveness */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .cardMonthly {
+      width: calc(50% - 20px); /* Adjust the width for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .cardMonthly {
+      width: calc(100% - 20px); /* Display cards in a single column for very small screens */
+  }
+}
+
+
