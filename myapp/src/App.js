@@ -19,6 +19,8 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [mobileNumber,setMobileNumber] = useState('');
   const [cardNameAuth,setCardNameAuth] = useState('');
+  const [userName,setUserName] = useState('');
+  const [userEmail,setUserEmail] = useState('');
 
 
   return (
